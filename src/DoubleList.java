@@ -47,6 +47,12 @@ public class DoubleList {
   @Override
   public String toString() {
     // Print every node in the list, seperate by " "
-    return "To be implemented soon!";
+    Node current = head;
+    String returnString = "";
+    
+    while (current != null) {
+      returnString+=current.data+" ";
+    }
+    return returnString;
   }
 }
